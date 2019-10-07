@@ -4,11 +4,11 @@ Published by: Muhamad khairul filhan bin nusi
 
 Digi-X “Lightning” Assessment for Developers
 
-Section 1: Application Programming Interface
+#Section 1: Application Programming Interface
 
 i) Request data from specific resources. Code example : 
 
-axios.get('<resource_url>')
+> axios.get('<resource_url>')
 .then(function (response) {
 console.log(response);
 })
