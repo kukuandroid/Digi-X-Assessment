@@ -19,7 +19,7 @@ console.log(error);
 
 ii)  Create or update  a child resource by sending data
 
-axios.post('/booking, {
+>axios.post('/booking, {
 user_id: “a1”,
 event_name: “HR Management”,
 Price : 19.00
@@ -34,7 +34,7 @@ console.log(error);
 
 iii)  Update a partial resources that were supplied 
 
-axios.patch('/booking/1, {
+>axios.patch('/booking/1, {
 Price : 20.00
 })
 .then(function (response) {
@@ -49,7 +49,7 @@ console.log(error);
 
 iv) Update resource by replacing the whole entity or object
 
-axios.put('/booking/1, {
+>axios.put('/booking/1, {
 user_id: “a1”,
 event_name: “HR Revolution”,
 price : 22.00
@@ -67,12 +67,12 @@ JWT token based authentication. This is the best approach by developers to secur
 
 For example :
 
-Let client_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDhjZTI4ZDM5ZTJlMzA5NjMzZTAyY2UiLCJpc3QiOjE1Njk5MzIxNDg3NjMsImlhdCI6MTU2OTkzMjE0OCwiZXhwIjoxNTc4NTcyMTQ4fQ.mQBms5rHNnLADVxRYJeQOFsS-qMSGEIo53AWNiECqew
+>Let client_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZDhjZTI4ZDM5ZTJlMzA5NjMzZTAyY2UiLCJpc3QiOjE1Njk5MzIxNDg3NjMsImlhdCI6MTU2OTkzMjE0OCwiZXhwIjoxNTc4NTcyMTQ4fQ.mQBms5rHNnLADVxRYJeQOFsS-qMSGEIo53AWNiECqew
 
 To authenticate with the web service : 
 
 
-axios.post('/booking, {
+>axios.post('/booking, {
 user_id: “a1”,
 event_name: “HR Management”,
 Price : 19.00
@@ -89,7 +89,7 @@ console.log(error);
 
 For successful request :
 
-{ 
+>{ 
 "status": "success", 
 "data": {
 booking_id : 2,
@@ -101,7 +101,7 @@ status : ‘Pending for verification’
 
 For failed request :
 
-{ 
+>{ 
 "status": "error", 
 "data":  null,
 "message":  “Event registration has been closed”
