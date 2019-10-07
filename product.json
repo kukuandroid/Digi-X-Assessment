@@ -1,0 +1,6 @@
+[
+  { "id": 1, "value": "ipd", "name": "Super Ipad", "price": 549.99 },
+  { "id": 2, "value": "mbp", "name": "MacBook Pro", "price": 1399.99 },
+  { "id": 3, "value": "atv", "name": "Apple TV", "price": 109.5 },
+  { "id": 4, "value": "vga", "name": "VGA adapter", "price": 30.0 }
+]
